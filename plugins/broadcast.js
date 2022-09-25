@@ -1,4 +1,4 @@
-let handler  = async (m, { conn, text }) => {
+/*let handler  = async (m, { conn, text }) => {
   let chats = Object.keys(await conn.chats)
   conn.reply(m.chat, `_Mengirim pesan broadcast ke ${chats.length} chat_`, m)
   for (let id of chats) {
@@ -21,4 +21,4 @@ handler.botAdmin = false
 
 handler.fail = null
 
-module.exports = handler
+module.exports = handler*/
