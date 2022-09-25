@@ -192,16 +192,16 @@ const ftroli = {
                           }
                         }
                       }
-await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/77d411d5a3808b375c232.jpg')).buffer(),  '*────────[ ALL MENU ]────────*', text, 'RULES', '.info', 'SEWAH BOT', '.sewa', m, {  
+await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/2b27a8c12bf9f08b9c77e.jpg')).buffer(),  '*────────[ ALL MENU ]────────*', text, 'RULES', '.rules', 'SEWAH BOT', '.sewa', m, {  
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
               title: 'All Menu',  
               body: '© DITA-BOT', 
-              description: 'Created By Pick Ford', 
+              description: 'Subscribe - Click Photo', 
               mediaType: 2,  
-            thumbnail: await (await fetch('https://telegra.ph/file/00faf159ce0349901eaf3.jpg')).buffer(), 
-           mediaUrl: `https://www.facebook.com/tio.permana.50999` 
+            thumbnail: await (await fetch('https://telegra.ph/file/911965bcca804858eb0a2.jpg')).buffer(), 
+           mediaUrl: `https://youtube.com/channel/UCJdVJDRUImyBoEp_jdvJAvQ` 
           }  
        }  
       })
