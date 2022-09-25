@@ -184,7 +184,7 @@ const ftroli = {
                             itemCount : 9999999999999,
                             status: 1,
                             surface : 1,
-                            message: '© TioXd Official',
+                            message: '© DITA-BOT',
                             orderTitle: 'MENU',
                             thumbnail: await (await fetch('https://telegra.ph/file/3911d7aaaa8733314f70f.png')).buffer(),
                             sellerJid: '0@s.whatsapp.net'
@@ -192,13 +192,13 @@ const ftroli = {
                           }
                         }
                       }
-await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/77d411d5a3808b375c232.jpg')).buffer(),  '*────────[ DASBOARD ]────────*', text, 'INFOBOT', '.info', 'LISTMENU', '.menu', m, {  
+await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/77d411d5a3808b375c232.jpg')).buffer(),  '*────────[ ALL MENU ]────────*', text, 'RULES', '.info', 'SEWAH BOT', '.sewa', m, {  
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
-              title: 'Bot Wahatsapp Multi Device',  
-              body: '© TioXd', 
-              description: 'Made With ❤️ TioXd', 
+              title: 'All Menu',  
+              body: '© DITA-BOT', 
+              description: 'Created By Pick Ford', 
               mediaType: 2,  
             thumbnail: await (await fetch('https://telegra.ph/file/00faf159ce0349901eaf3.jpg')).buffer(), 
            mediaUrl: `https://www.facebook.com/tio.permana.50999` 
@@ -212,7 +212,7 @@ await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/fil
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = /^(a)$/i
+handler.command = /^(allmenu)$/i
 
 handler.exp = 3
 
