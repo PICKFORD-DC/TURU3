@@ -201,7 +201,7 @@ await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/fil
               description: 'Subscribe - Click Photo', 
               mediaType: 2,  
             thumbnail: await (await fetch('https://telegra.ph/file/9013563d05e3ae7985404.jpg')).buffer(), 
-           mediaUrl: `https://youtube.com/channel/UCJdVJDRUImyBoEp_jdvJAvQ` 
+           mediaUrl: `https://www.facebook.com/profile.php?id=100077142458119` 
           }  
        }  
       })
