@@ -200,7 +200,7 @@ await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/fil
               body: '© DITA-BOT', 
               description: 'Subscribe - Click Photo', 
               mediaType: 2,  
-            thumbnail: await (await fetch('https://telegra.ph/file/911965bcca804858eb0a2.jpg')).buffer(), 
+            thumbnail: await (await fetch('https://telegra.ph/file/9013563d05e3ae7985404.jpg')).buffer(), 
            mediaUrl: `https://youtube.com/channel/UCJdVJDRUImyBoEp_jdvJAvQ` 
           }  
        }  
