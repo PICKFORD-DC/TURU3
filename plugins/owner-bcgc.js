@@ -1,4 +1,4 @@
-let handler = async (m, { conn, isROwner, text }) => {
+/*let handler = async (m, { conn, isROwner, text }) => {
     const delay = time => new Promise(res => setTimeout(res, time))
     let getGroups = await conn.groupFetchAllParticipating()
     let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
@@ -18,4 +18,4 @@ handler.command = /^((broadcastgc|bcgc)bot)$/i
 
 handler.owner = true
 
-module.exports = handler
+module.exports = handler*/
