@@ -1,4 +1,4 @@
-// beta list menu ujicoba doang 
+/*/ beta list menu ujicoba doang 
 // Sedang menyelesaikan menu jadi seadanya dlu ya banh:v
 // Dilarang edit edit yg lain nanti errror
 // kalo edit wm boleh aja asal se wajarnya
@@ -51,4 +51,4 @@ function clockString(ms) {
     let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
     let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
     return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
-}
+}*/
