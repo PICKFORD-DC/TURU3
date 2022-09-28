@@ -1,4 +1,4 @@
-let fetch = require('node-fetch')
+/*let fetch = require('node-fetch')
 
 let handler = async (m, { conn, text, participants, usedPrefix, command }) => {
   if (m.quoted) {
@@ -45,4 +45,4 @@ handler.botAdmin = true
 handler.limit = true
 
 module.exports = handler
-
+*/
