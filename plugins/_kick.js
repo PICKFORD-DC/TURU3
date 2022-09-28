@@ -1,4 +1,4 @@
-let handler = async (m, { teks, conn, isOwner, isAdmin, args }) => {
+/*let handler = async (m, { teks, conn, isOwner, isAdmin, args }) => {
 	if (!(isAdmin || isOwner)) {
                 global.dfail('admin', m, conn)
                 throw false
@@ -25,4 +25,4 @@ handler.command = /^(kic?k|remove|tendang|\-)$/i
 handler.group = true
 handler.botAdmin = true
 
-module.exports = handler
+module.exports = handler*/
