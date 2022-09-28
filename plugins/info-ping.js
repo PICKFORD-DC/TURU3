@@ -1,4 +1,4 @@
-let os = require('os')
+/*let os = require('os')
 let util = require('util')
 let { performance } = require('perf_hooks')
 let { sizeFormatter } = require('human-readable')
@@ -63,4 +63,4 @@ handler.help = ['ping', 'speed']
 handler.tags = ['info']
 
 handler.command = /^(ping|speed|pong)$/i
-module.exports = handler 
+module.exports = handler */
