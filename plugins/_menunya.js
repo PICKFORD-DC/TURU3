@@ -192,7 +192,7 @@ const ftroli = {
                           }
                         }
                       }
-await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/2b27a8c12bf9f08b9c77e.jpg')).buffer(),  '*────────[ ALL MENU ]────────*', text, 'RULES', '.rules', 'SEWAH BOT', '.sewa', m, {  
+await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/2b27a8c12bf9f08b9c77e.jpg')).buffer(),  '*────────[ ALL MENU ]────────*', text, 'RULES', '.rules', 'SEWAH BOT', '.sewa', 'STATUS BOT', '.ping', m, {  
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
