@@ -1,4 +1,4 @@
-let fs = require('fs')
+/*let fs = require('fs')
 let handler = async (m, { conn }) => {
 let anu = `
 ╭─「 Donasi 」
@@ -27,4 +27,4 @@ handler.help = ['sewa']
 handler.tags = ['info']
 handler.command = /^(sewabot|sewa|price|rental|rent)$/i
 
-module.exports = handler
+module.exports = handler*/
